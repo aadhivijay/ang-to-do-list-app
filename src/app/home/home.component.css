@@ -1,0 +1,29 @@
+.home-cont {
+  flex-direction: column;
+}
+
+.header-cont {
+  background-color: red;
+  justify-content: space-between;
+  padding: 6px 14px;
+}
+
+.body-cont {
+  /* flex-direction: column; */
+}
+
+.list-cont {
+  width: 30%;
+  flex-direction: column;
+}
+
+.editor-cont {
+  width: 70%;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 468px) {
+  .list-cont {
+    display: none;
+  }
+}

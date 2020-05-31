@@ -1,0 +1,23 @@
+<div class="flex list-cont">
+
+  <ng-container *ngFor="let item of list">
+
+    <div class="flex cont-pad item-cont">
+
+      <div class="flex item-card-cont" (click)="openEditor(item)">
+
+        <div class="flex elem-pad item-title">
+          {{ item.title }}
+        </div>
+
+        <div class="flex elem-pad item-desc">
+          {{ item.description }}
+        </div>
+
+      </div>
+
+    </div>
+
+  </ng-container>
+
+</div>

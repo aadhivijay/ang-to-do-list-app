@@ -1,0 +1,27 @@
+.list-cont {
+  flex-direction: column;
+}
+
+.item-card-cont {
+  cursor: pointer;
+}
+
+.item-card-cont:hover {
+  box-shadow: 2px 2px 8px var(--border);
+}
+
+.item-card-cont {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  width: 100%;
+}
+
+.item-card-cont {
+  flex-direction: column;
+}
+
+.item-title, .item-desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

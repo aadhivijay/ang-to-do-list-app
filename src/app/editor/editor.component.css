@@ -1,0 +1,7 @@
+.editor-cont {
+  flex-direction: column;
+}
+
+.title-input, .desc-input {
+  width: 100%;
+}

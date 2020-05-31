@@ -1,0 +1,27 @@
+<div class="flex home-cont">
+
+  <div class="flex header-cont">
+
+    <button class="sec-button" *ngIf="showEditor" (click)="closeEditor()">
+      < Back
+    </button>
+
+    <button class="sec-button" (click)="addItem()">
+      + Add
+    </button>
+
+  </div>
+
+  <div class="flex body-cont">
+
+    <div class="flex list-cont">
+      <list></list>
+    </div>
+
+    <div class="flex editor-cont">
+      <editor *ngIf="showEditor" [data]="item"></editor>
+    </div>
+
+  </div>
+
+</div>
